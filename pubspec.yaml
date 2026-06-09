@@ -1,0 +1,25 @@
+name: dynamic_attendance
+description: Dynamic Attendance System with MVC Architecture
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  postgres: ^2.9.0
+  dio: ^5.3.0
+  intl: ^0.19.0
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
